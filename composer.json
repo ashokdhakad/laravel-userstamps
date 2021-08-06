@@ -1,0 +1,41 @@
+{
+  "name": "ashokdhakad/laravel-userstamps",
+  "homepage": "https://github.com/ashokdhakad/laravel-userstamps.git",
+  "license": "MIT",
+  "description": "A simple Laravel package for Eloquent Model user specific fields.",
+  "keywords": [
+    "laravel",
+    "userstamps",
+    "eloquent",
+    "userstamps",
+    "created_by",
+    "updated_by",
+    "deleted_by"
+  ],
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Ashok vaktariya",
+      "email": "ashokvaktariya1@gmail.com"
+    }
+  ],
+  "readme": "./readme.md",
+  "time": "2021-08-6",
+  "require": {
+    "php": "^7.2.5",
+    "illuminate/support": "^7.0",
+    "illuminate/database": "^7.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Userstamps\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Userstamps\\UserstampsServiceProvider"
+      ]
+    }
+  }
+}
